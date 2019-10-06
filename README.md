@@ -7,10 +7,26 @@
 * Defined as a company that uses an online-enabled platform to connect passengers with drivers using their personal, non-commercial vehicles
 * Provide service to areas that do not have taxis normally available
 * Charging lower rates than taxicabs
+* Companies that we've observed: Lyft, Uber
 
 ### Lyft
+By 2013, Lyft was providing 30,000 rides a week
+By the end of 2013, it hits 2.7 million completed rides
+April 2014, Lyft had become available in 60 U.S. cities
+By the end of 2014, they hit 18.1 million completed rides
 
-### 
+![Lyft Annual Completed Rides](link-to-image)
+
+
+### Uber
+
+
+
+
+
+
+
+![Uber Number of Active Driver-Partners](link-to-image)
 
 
 ### 
