@@ -75,7 +75,7 @@ After cleaning the data, we used Matplotlib to visualize our data.
 * 10% decrease in deaths for Males in 2014
 * Little to no change in deaths for Women in 2014
 * Men account for 84% of all DUI deaths in 2012
-** 83% in 2014
+  * 83% in 2014
 
 ## DUI Deaths by State (2012)
 Ages 21-34 had the highest rates
