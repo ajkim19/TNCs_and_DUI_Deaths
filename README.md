@@ -41,17 +41,17 @@ To display our finding, we used Python, Pandas, and Matplotlib
 ## Data
 Our data was obtained from data.gov.
 
-![data.gov]()
+![data.gov](https://github.com/ajkim19/TNCs_and_DUI_Deaths/blob/master/Resources/datagov.png)
 
-![data_screenshot1]()
+![data_screenshot1](https://github.com/ajkim19/TNCs_and_DUI_Deaths/blob/master/Resources/data_screenshot1)
 
 Because the data that we obtained was already fairly clean, not much data munging was required. We removed and renames some of the columns, and replaced null values with the value "0" (information on the dataset stated that null values were given to negligible values).
 
-![data_screenshot2]()
+![data_screenshot2](https://github.com/ajkim19/TNCs_and_DUI_Deaths/blob/master/Resources/data_screenshot2)
 
 After cleaning the data, we used Matplotlib to visualize our data.
 
-![data_screenshot3]()
+![data_screenshot3](https://github.com/ajkim19/TNCs_and_DUI_Deaths/blob/master/Resources/data_screenshot3)
 
 
 ### Findings
@@ -62,6 +62,7 @@ After cleaning the data, we used Matplotlib to visualize our data.
 * Men in Utah had the lowest rate of deaths
 * Women in Montana had the highest rate of deaths
 * Women in West Virginia had the lowest rate of deaths
+![graph1](https://github.com/ajkim19/TNCs_and_DUI_Deaths/blob/master/Project%201/DUI%20Deaths%20by%20State%202012%20(Gender).png)
 
 ## DUI Deaths by State (2014)
 * Used to compare Gender by States
@@ -69,6 +70,7 @@ After cleaning the data, we used Matplotlib to visualize our data.
 * Men in New York had the lowest rate of deaths
 * Women in Montana had the highest rate of deaths
 * Women in New York had the lowest rate of deaths
+![graph2](https://github.com/ajkim19/TNCs_and_DUI_Deaths/blob/master/Project%201/DUI%20Deaths%20by%20State%202014%20(Gender).png)
 
 ## DUI Deaths by Year
 * Men have much higher rates of deaths in both years
@@ -76,51 +78,63 @@ After cleaning the data, we used Matplotlib to visualize our data.
 * Little to no change in deaths for Women in 2014
 * Men account for 84% of all DUI deaths in 2012
   * 83% in 2014
+![graph3](https://github.com/ajkim19/TNCs_and_DUI_Deaths/blob/master/Project%201/DUI%20Deaths%20by%20Year%20(Gender).png)
 
 ## DUI Deaths by State (2012)
-Ages 21-34 had the highest rates
-Highest in Montana
-Lowest in Massachusetts
-Ages 0-20 had the lowest rates
-Highest in South Carolina
-Lowest in New York
-Ages 35+
-Highest in North Dakota
-Lowest in New Mexico
+* Ages 21-34 had the highest rates
+  * Highest in Montana
+  * Lowest in Massachusetts
+* Ages 0-20 had the lowest rates
+  * Highest in South Carolina
+  * Lowest in New York
+* Ages 35+
+  * Highest in North Dakota
+  * Lowest in New Mexico
+![graph4](https://github.com/ajkim19/TNCs_and_DUI_Deaths/blob/master/Project%201/DUI%20Deaths%20by%20State%202012%20(Age).png)
 
 ## DUI Deaths by State (2014)
-Ages 21-34 had the highest rates
-Highest in Montana
-Lowest in New Hampshire
-Ages 0-20 had the lowest rates
-Highest in Mississippi
-Lowest in Illinois
-Ages 35+
-Highest in Wyoming
-Lowest in New Hampshire
+* Ages 21-34 had the highest rates
+  * Highest in Montana
+  * Lowest in New Hampshire
+* Ages 0-20 had the lowest rates
+  * Highest in Mississippi
+  * Lowest in Illinois
+* Ages 35+
+  * Highest in Wyoming
+  * Lowest in New Hampshire
+![graph5](https://github.com/ajkim19/TNCs_and_DUI_Deaths/blob/master/Project%201/DUI%20Deaths%20by%20State%202014%20(Age).png?)
 
 ## DUI Deaths by Year
-
-14% reduction of deaths
-For Ages 21-34
-Generation most impacted by TNCs
-53% reduction of deaths 
-For Ages 0-20
-Small reduction of deaths
-For Ages 35+
+* 14% reduction of deaths
+  * For Ages 21-34
+  * Generation most impacted by TNCs
+* 53% reduction of deaths 
+  * For Ages 0-20
+* Small reduction of deaths
+  * For Ages 35+
+![graph6](https://github.com/ajkim19/TNCs_and_DUI_Deaths/blob/master/Project%201/DUI%20Deaths%20by%20Year%20(Age).png)
 
 ### Discussion
-Men have higher rates of DUI deaths than women
-However little correlation between Female DUI deaths and TNCs
-Ages 21-34 had the highest rates as well as the highest correlation
-Overall, correlation between DUI deaths and TNCs
-Introduction of Uber/Lyft in 2012 caused a slight reduction in deaths
-
+* Men have higher rates of DUI deaths than women
+  * * However little correlation between Female DUI deaths and TNCs
+* Ages 21-34 had the highest rates as well as the highest correlation
+* Overall, correlation between DUI deaths and TNCs
+  * Introduction of Uber/Lyft in 2012 caused a slight reduction in deaths
 
 ### Post Mortem
-Unable to find APIs with the data we needed
-Difficulty finding the best way to separate the data for analysis
-Issues having our graphs represent our data the way we wanted
-Beneficial to analyze later years as popularity of TNCs increased
+* Unable to find APIs with the data we needed
+* Difficulty finding the best way to separate the data for analysis
+* Issues having our graphs represent our data the way we wanted
+* Beneficial to analyze later years as popularity of TNCs increased
 
-
+### References
+* https://en.wikipedia.org/wiki/Uber
+* https://www.uber.com/blog/los-angeles/uber-la-officially-launched/
+* https://s3.amazonaws.com/uber-static/comms/PDF/Uber_Driver-Partners_Hall_Kreuger_2015.pdf
+* https://www.forbes.com/sites/briansolomon/2017/01/05/lyft-rides-tripled-last-year-but-remains-far-behind-uber/#7c1a1789199e
+* https://en.wikipedia.org/wiki/Transportation_network_company
+* https://en.wikipedia.org/wiki/DUI_laws_in_California
+* https://www.nhtsa.gov/risky-driving/drunk-driving#age-5056
+* https://mrcheckpoint.com/can-i-get-a-dui-removed-from-my-record-in-california/
+* https://www.edhat.com/news/dui-suspected-in-rollover-accident
+* https://catalog.data.gov/dataset/impaired-driving-death-rate-by-age-and-gender-2012-all-states-587fd
