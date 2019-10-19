@@ -43,15 +43,15 @@ Our data was obtained from data.gov.
 
 ![data.gov](https://github.com/ajkim19/TNCs_and_DUI_Deaths/blob/master/Resources/datagov.png)
 
-![data_screenshot1](https://github.com/ajkim19/TNCs_and_DUI_Deaths/blob/master/Resources/data_screenshot1)
+![data_screenshot1](https://raw.githubusercontent.com/ajkim19/TNCs_and_DUI_Deaths/master/Resources/data_screenshot1.PNG)
 
 Because the data that we obtained was already fairly clean, not much data munging was required. We removed and renames some of the columns, and replaced null values with the value "0" (information on the dataset stated that null values were given to negligible values).
 
-![data_screenshot2](https://github.com/ajkim19/TNCs_and_DUI_Deaths/blob/master/Resources/data_screenshot2)
+![data_screenshot2](https://raw.githubusercontent.com/ajkim19/TNCs_and_DUI_Deaths/master/Resources/data_screenshot2.PNG)
 
 After cleaning the data, we used Matplotlib to visualize our data.
 
-![data_screenshot3](https://github.com/ajkim19/TNCs_and_DUI_Deaths/blob/master/Resources/data_screenshot3)
+![data_screenshot3](https://raw.githubusercontent.com/ajkim19/TNCs_and_DUI_Deaths/master/Resources/data_screenshot3.PNG)
 
 
 ### Findings
